@@ -55,15 +55,10 @@ login()
    - Le script utilise la fonction `str.maketrans` pour créer un alphabet décalé de 13 positions.
    - La fonction `decode_secret()` applique ce décalage pour **décoder**.
 
-3. **Le nom d'utilisateur attendu est** :
-   ```python
-   nom == "Michel"
-   ```
-
 ---
 
 ### 🛠️ Décodage
-- Pour décoder la chaîne `"plorevav{synt}"`, nous utilisons un outil en ligne comme [dCode ROT13](https://www.dcode.fr/chiffre-rot13) 🔑.
+- Pour décoder la chaîne `"plorevav{synt}"`, nous utilisons un outil en ligne comme [dCode](https://www.dcode.fr/chiffre-cesar) 🔑.
 - Après avoir décodé, on obtient :
   ```plaintext
   cyberini{flag}
@@ -78,7 +73,7 @@ Le flag est **`cyberini{flag}`** ! 🏆
 
 ## ⚙️ Outils utilisés
 - Python 🐍
-- [dCode ROT13](https://www.dcode.fr/chiffre-rot13) 🔓
+- [dCode](https://www.dcode.fr/chiffre-cesar) 🔓
 
 ---
 
